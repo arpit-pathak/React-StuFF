@@ -8,7 +8,7 @@ const Herosection = (props) => {
         src="https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&w=120&h=70&dpr=2"
         alt="Contextapo"
       />
-      <Usercard username={props.username} btncolor={props.btncolor} />
+      <Usercard />
     </div>
   );
 };

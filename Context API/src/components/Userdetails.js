@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
+import { mycontext } from "../App";
 
-const Userdetails = (props) => {
+const Userdetails = () => {
+  const data = useContext(mycontext);
   return (
     <div className="output">
-      My Name is <span className="username">{props.username}</span>
+      My Name is <span className="username">{data.name}</span>
     </div>
   );
 };

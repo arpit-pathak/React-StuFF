@@ -5,8 +5,8 @@ import Userdetails from "./Userdetails";
 const Usercard = (props) => {
   return (
     <div>
-      <Userdetails username={props.username} />
-      <Button btncolor={props.btncolor} />
+      <Userdetails />
+      <Button />
     </div>
   );
 };

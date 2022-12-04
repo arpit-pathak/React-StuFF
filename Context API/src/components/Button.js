@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
+import { mycontext } from "../App";
 
-const Button = (props) => {
+const Button = () => {
+  const data = useContext(mycontext);
   return (
-    <div className="output" style={{ backgroundColor: props.btncolor }}>
+    <div className="output" style={{ backgroundColor: data.color }}>
       COLOR CHANGER
     </div>
   );
