@@ -1,0 +1,17 @@
+.wraper {
+  text-align: center;
+}
+
+input {
+  margin: 30px 10px;
+}
+
+.username {
+  background-color: rgb(166, 166, 166);
+  font-weight: bold;
+  padding: 2px 5px;
+}
+
+.output {
+  margin: 10px;
+}
